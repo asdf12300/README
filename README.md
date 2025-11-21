@@ -7,7 +7,8 @@ top 명령어는 시스템의 **현재 상태를 실시간으로** 보여주는 
 
   >이를 통해 시스템의 부하를 파악하고, 필요한 조치를 취할 수 있다.
 
-![예시](https://develop-historychosun.tistory.com/85?pidx=0)
+<img width="1093" height="188" alt="image" src="https://github.com/user-attachments/assets/243e1e24-7f10-474c-97b7-fd0617b994cf" />
+
 
 ---
 ## ps
