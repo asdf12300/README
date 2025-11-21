@@ -10,7 +10,7 @@ top 명령어는 시스템의 **현재 상태를 실시간으로** 보여주는 
 **사용예시**
 
 <img width="1093" height="188" alt="image" src="https://github.com/user-attachments/assets/243e1e24-7f10-474c-97b7-fd0617b994cf" />
-
+[이미지출처](https://develop-historychosun.tistory.com/85)
 
 | 줄 번호 | 설명 |
 |:-------:|:----|
@@ -36,7 +36,7 @@ ps 명령어는 **현재 실행 중인 프로세스를 스냅샷 형태로 확�
 
 **사용 예시**
 <img width="1103" height="82" alt="image" src="https://github.com/user-attachments/assets/24813d61-4049-44ab-befe-d214c66c39ea" />
-
+[이미지출처](https://develop-historychosun.tistory.com/85)
 
 | 컬럼 | 의미 | 설명 |
 |:----:|:----:|:----|
