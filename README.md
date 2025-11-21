@@ -105,12 +105,12 @@ user@linux:~$ jobs
 [1]+  Running                 sleep 1000 &
 ```
 
-##### sleep 프로세스 기본 종료(SIGTERM)
+##### kill로 프로세스 종료
 ```
 user@linux:~$ kill 1234
 ```
 
-##### 종료 후 jobs 확인
+##### 종료 후 jobs로 확인
 ```
 user@linux:~$ jobs
 [1]+  Terminated              sleep 1000
