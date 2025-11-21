@@ -21,6 +21,7 @@ top 명령어는 시스템의 **현재 상태를 실시간으로** 보여주는 
 | 6       | 프로세스 테이블 헤더: PID, 사용자, 우선순위(PR), nice값(NI), 가상메모리(VIRT), 실제메모리(RES), 공유메모리(SHR), 상태(S), CPU%, MEM%, 누적 CPU시간(TIME+), 명령어(CMD) |
 | 7~n     | 각 프로세스 정보 한 줄씩. PID, 사용자, 상태, 메모리, CPU 사용률 등 표시 |
 
+[이미지출처](https://develop-historychosun.tistory.com/85)
 
 ---
 ## ps
@@ -36,8 +37,6 @@ ps 명령어는 **현재 실행 중인 프로세스를 스냅샷 형태로 확�
 **사용 예시**
 <img width="1103" height="82" alt="image" src="https://github.com/user-attachments/assets/24813d61-4049-44ab-befe-d214c66c39ea" />
 
-[이미지출처](https://develop-historychosun.tistory.com/85)
-
 | 컬럼 | 의미 | 설명 |
 |:----:|:----:|:----|
 | PID  | Process ID | 프로세스의 고유 식별 번호. 각 프로세스마다 하나씩 있음 |
@@ -45,6 +44,7 @@ ps 명령어는 **현재 실행 중인 프로세스를 스냅샷 형태로 확�
 | TIME | CPU Time | 해당 프로세스가 사용한 **누적 CPU 시간**. 초 단위가 아니라 `분:초` 형식 |
 | CMD  | Command | 실행된 **명령어 이름** 또는 경로. 어떤 프로그램/명령이 실행되었는지 표시 |
 
+[이미지출처](https://develop-historychosun.tistory.com/85)
 
 ---
 ## jobs
@@ -99,4 +99,5 @@ kill 명령어는 **프로세스를 종료할 때** 사용된다.
 | `ps`   | 프로세스 상태 스냅샷 | PID, PPID, CPU/메모리 사용량, 상태 | `ps aux`, `ps -ef` | 특정 시점 상태 확인, 스크립트 자동화에 유용 |
 | `jobs` | 백그라운드 작업 관리 | 현재 쉘에서 실행 중인 작업 목록 | `jobs`, `fg %1` | 백그라운드 작업 확인 및 포그라운드 전환 가능 |
 | `kill` | 프로세스 종료 | 없음 (성공/실패 메시지) | `kill 1234`, `kill -9 1234` | 특정 프로세스 종료, 강제 종료 옵션 지원 |
+
 
