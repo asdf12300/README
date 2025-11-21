@@ -54,6 +54,25 @@ jobs 명령어는 쉘에서 **백그라운드로 실행 중인 작업을 확인*
 
 - 특정 작업을 포그라운드로 전환할 때는 `fg %번호`와 같이 사용하여 다시 제어할 수 있으므로, 여러 작업을 동시에 실행하면서 필요한 작업을 선택적으로 관리할 수 있다.
 
+```
+# 백그라운드에서 ping 실행
+user@linux:~$ ping google.com &
+[1] 100
+
+# 현재 백그라운드 작업 확인
+user@linux:~$ jobs
+[1]+  Running                 ping google.com &
+
+# sleep 명령어 실행 후 Ctrl+Z로 중단
+user@linux:~$ sleep 1000
+^Z
+[2]+  Stopped                 sleep 1000
+
+# 다시 jobs로 확인
+user@linux:~$ jobs
+[1]-  Running                 ping google.com &
+[2]+  Stopped                 sleep 1000
+```
 
 ---
 ## kill
